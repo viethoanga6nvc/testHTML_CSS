@@ -14,13 +14,13 @@ body {
 /* Top Header */
 
 .top-header {
-    display        : flex;
-    justify-content: space-between;
-    height         : 40px;
-    padding        : 7px 255px;
-    font-size      : 15px;
-    background     : rgba(236, 128, 160, 0.1);
-    font-weight    : 400;
+    display    : flex;
+    height     : 40px;
+    padding    : 7px 255px;
+    font-size  : 15px;
+    background : rgba(236, 128, 160, 0.1);
+    font-weight: 400;
+    position   : relative;
 }
 
 .slogan,
@@ -40,14 +40,18 @@ body {
     width         : 386px;
     color         : #C81B10;
     letter-spacing: -0.3px;
+    position      : absolute;
+    left          : 767px;
 }
 
 .lang {
-    display: flex;
-    gap    : 15px;
-    width  : 133px;
-    height : 26px;
-    color  : #1A1114;
+    display : flex;
+    gap     : 15px;
+    width   : 133px;
+    height  : 26px;
+    color   : #1A1114;
+    position: absolute;
+    right   : 255px;
 }
 
 .lang div {
@@ -78,13 +82,13 @@ body {
 /* NAV */
 
 nav {
-    height         : 110px;
-    display        : flex;
-    justify-content: space-between;
-    align-items    : center;
-    background     : #FFFFFF;
-    box-shadow     : 0px 2px 20px 0px #1A11141A;
-    padding        : 0 255px;
+    height     : 110px;
+    display    : flex;
+    align-items: center;
+    background : #FFFFFF;
+    box-shadow : 0px 2px 20px 0px #1A11141A;
+    padding    : 0 255px;
+    position   : relative;
 }
 
 ul {
@@ -113,13 +117,17 @@ ul li {
     text-align    : center;
     color         : #1A1114;
     letter-spacing: -3.8px;
+    position      : absolute;
+    left          : 902px;
 }
 
 .icons {
-    width  : 149px;
-    height : 32px;
-    display: flex;
-    gap    : 30px;
+    width   : 149px;
+    height  : 32px;
+    display : flex;
+    gap     : 30px;
+    position: absolute;
+    right   : 255px;
 }
 
 .has-number {
@@ -143,4 +151,31 @@ ul li {
     z-index      : 1;
     top          : 10px;
     left         : 12px;
+}
+
+/* Page Title */
+
+.page-title {
+    width : 203px;
+    height: 111px;
+    margin: 100px 0 0 255px;
+
+}
+
+.title {
+    height        : 70px;
+    line-height   : 70px;
+    font-size     : 54px;
+    font-weight   : 700;
+    letter-spacing: -5.8px;
+}
+
+.link {
+    width          : 117px;
+    height         : 26px;
+    display        : flex;
+    line-height    : 26px;
+    font-size      : 15px;
+    justify-content: space-between;
+    margin-top     : 15px;
 }
