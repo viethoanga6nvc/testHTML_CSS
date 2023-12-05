@@ -528,3 +528,104 @@ ul li {
     justify-content: space-between;
     margin         : 15px auto 0;
 }
+
+/* Befinit */
+
+.benifit {
+    width        : 1410px;
+    height       : 160px;
+    border-radius: 10px;
+    display      : flex;
+    border       : 1px solid #1A11141A;
+    margin       : 100px 255px 0;
+    padding      : 50px 70px 0;
+}
+
+.benifit-item {
+    display: flex;
+    height : 67px;
+    gap    : 20px;
+}
+
+.benifit-item-icon {
+    width        : 60px;
+    height       : 60px;
+    border-radius: 30px;
+    border       : 1px solid #EC80A0;
+    color        : #EC80A0;
+    background   : #FFFFFF;
+}
+
+.benifit-item-icon i {
+    width      : 30px;
+    height     : 54px;
+    font-weight: 400px;
+    font-size  : 30px;
+    line-height: 54px;
+    margin     : 3px 15px;
+}
+
+.benifit-item-text {
+    display: grid;
+    gap    : 10px;
+}
+
+.title-benifit {
+    height        : 31px;
+    font-weight   : 700;
+    font-size     : 24px;
+    line-height   : 31px;
+    color         : #111827;
+    text-transform: capitalize;
+}
+
+.descp-benifit {
+    height     : 26px;
+    font-weight: 400;
+    font-size  : 15px;
+    line-height: 26px;
+    color      : #585D67;
+}
+
+.b1 {
+    width: 309px;
+}
+
+.b1 .title-benifit {
+    width         : 142px;
+    letter-spacing: -2.1px;
+}
+
+.b1 .descp-benifit {
+    width         : 229px;
+    letter-spacing: -0.1px;
+}
+
+.b2 {
+    width      : 299px;
+    margin-left: 192px;
+}
+
+.b2 .title-benifit {
+    width         : 203px;
+    letter-spacing: -2.4px;
+}
+
+.b2 .descp-benifit {
+    width         : 219px;
+    letter-spacing: -0.7px;
+}
+
+.b3 {
+    width      : 253px;
+    margin-left: 196px;
+}
+
+.b3 .title-benifit {
+    width         : 145px;
+    letter-spacing: -2.2px;
+}
+
+.b3 .descp-benifit {
+    width: 173px;
+}
