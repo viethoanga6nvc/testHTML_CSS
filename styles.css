@@ -10,7 +10,6 @@ body {
     background: #ffffff;
 }
 
-/* padding   : 0 255px; */
 /* Top Header */
 
 .top-header {
@@ -195,6 +194,7 @@ ul li {
 }
 
 /* About1 */
+
 .about1 {
     width     : 1410px;
     height    : 600px;
@@ -310,12 +310,12 @@ ul li {
     width         : 525px;
     height        : 70px;
     text-transform: capitalize;
+    font-weight   : 700;
     font-size     : 54px;
     line-height   : 70px;
     letter-spacing: -4.8px;
-    position      : absolute;
-    top           : 0;
-    left          : 443px;
+    margin        : 0 auto;
+    color         : #1A1114;
 }
 
 .proud-of-container {
@@ -335,7 +335,7 @@ ul li {
     position     : relative;
 }
 
-.item-ind {
+.poi-ind {
     width      : 330px;
     height     : 55px;
     line-height: 55px;
@@ -347,7 +347,7 @@ ul li {
     top        : 40px;
 }
 
-.item-name {
+.poi-name {
     width      : 330px;
     height     : 31px;
     line-height: 31px;
@@ -359,7 +359,7 @@ ul li {
     top        : 115px;
 }
 
-.item-descp {
+.poi-descp {
     height     : 52px;
     font-weight: 400;
     font-size  : 15px;
@@ -435,4 +435,96 @@ ul li {
 
 .about2-content>button:hover {
     background: #E76088;
+}
+
+/* Our Team */
+
+.our-team {
+    width   : 1410px;
+    height  : 510px;
+    margin  : 73px 255px 0;
+    position: relative;
+}
+
+.our-team h2 {
+    width         : 222px;
+    height        : 70px;
+    text-transform: capitalize;
+    font-weight   : 700;
+    font-size     : 54px;
+    line-height   : 70px;
+    letter-spacing: -6.4px;
+    text-align    : center;
+    margin        : 0 auto;
+    color         : #1A1114;
+}
+
+.our-team-container {
+    display              : grid;
+    grid-template-columns: auto auto auto auto;
+    gap                  : 30px;
+    position             : absolute;
+    bottom               : 0;
+}
+
+.our-team-item {
+    width        : 330px;
+    height       : 390px;
+    border-radius: 10px;
+    background   : #FFFFFF;
+    box-shadow   : 0px 4px 30px 0px #0A1E231A;
+    position     : relative;
+}
+
+.oti-img img {
+    width        : 130px;
+    height       : 130px;
+    border-radius: 65px;
+    margin       : 40px 100px 0;
+}
+
+.oti-name {
+    width         : 89px;
+    height        : 31px;
+    font-weight   : 700;
+    font-size     : 24px;
+    line-height   : 31px;
+    text-align    : center;
+    color         : #1A1114;
+    margin        : 25px auto 0;
+    letter-spacing: -2.2px;
+}
+
+.oti-position,
+.oti-descp,
+.oti-social-icons {
+    font-weight: 400;
+    font-size  : 15px;
+    line-height: 26px;
+    text-align : center;
+}
+
+.oti-position {
+    width         : 108px;
+    height        : 26px;
+    opacity       : 0.5;
+    color         : #1A1114;
+    margin        : 5px auto 0;
+    letter-spacing: -0.3px;
+}
+
+.oti-descp {
+    width : 270px;
+    height: 52px;
+    color : #0A1E23;
+    margin: 10px auto 0;
+}
+
+.oti-social-icons {
+    width          : 96px;
+    height         : 26px;
+    color          : #1A1114;
+    display        : flex;
+    justify-content: space-between;
+    margin         : 15px auto 0;
 }
