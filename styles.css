@@ -179,3 +179,120 @@ ul li {
     justify-content: space-between;
     margin-top     : 15px;
 }
+
+.home {
+    color: #1A1114;
+}
+
+.link>span {
+    color  : #1A1114;
+    opacity: 0.2;
+}
+
+.about {
+    color  : #1A1114;
+    opacity: 0.5;
+}
+
+/* About1 */
+.about1 {
+    width     : 1410px;
+    height    : 600px;
+    display   : flex;
+    background: #E5F8FD;
+    margin    : 70px 255px 0;
+    display   : flex;
+    position  : relative;
+}
+
+.content,
+.video {
+    width: 705px;
+}
+
+.content {
+    padding: 112px 0 0 90px;
+}
+
+.label {
+    width        : 106px;
+    height       : 36px;
+    border-radius: 5px;
+    background   : rgba(236, 128, 160, 0.15);
+    color        : #EC80A0;
+    line-height  : 36px;
+    text-align   : center;
+    font-size    : 15px;
+    font-weight  : 700;
+}
+
+.mobile {
+    display: none;
+}
+
+.content>p {
+    width         : 548px;
+    height        : 210px;
+    text-transform: capitalize;
+    font-size     : 54px;
+    font-weight   : 700;
+    line-height   : 70px;
+    letter-spacing: -4.9px;
+    color         : #1A1114;
+    margin-top    : 20px;
+}
+
+.content>button {
+    width         : 224px;
+    height        : 60px;
+    border-radius : 10px;
+    border        : none;
+    text-transform: uppercase;
+    font-weight   : 700;
+    font-size     : 20px;
+    line-height   : 26px;
+    color         : #FFFFFF;
+    padding       : 17px 40px;
+    background    : #EC80A0;
+    margin-top    : 40px;
+}
+
+.content>button:hover {
+    background: #E76088;
+}
+
+.img1 {
+    background: url("./asset/1.png");
+    display   : block;
+}
+
+.cut1 {
+    width              : 705px;
+    height             : 600px;
+    background-position: -9px -4px;
+}
+
+.icon {
+    width        : 90px;
+    height       : 90px;
+    background   : #FFFFFF;
+    color        : #EC80A0;
+    position     : absolute;
+    z-index      : 1;
+    border-radius: 45px;
+    top          : 255px;
+    left         : 1013px;
+}
+
+.icon>i {
+    width      : 34px;
+    height     : 81px;
+    font-size  : 42px;
+    line-height: 81px;
+    margin     : 5px 0 5px 33px;
+}
+
+.icon:hover {
+    background: #EC80A0;
+    color     : #FFFFFF;
+}
