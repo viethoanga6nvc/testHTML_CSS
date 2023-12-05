@@ -369,3 +369,70 @@ ul li {
     top        : 156px;
     color      : #0A1E23;
 }
+
+/* About2 */
+
+.about2 {
+    margin     : 100px 255px 0;
+    display    : flex;
+    gap        : 30px;
+    align-items: center;
+}
+
+.about2-image {
+    display    : flex;
+    gap        : 30px;
+    align-items: center;
+}
+
+.about2-image img {
+    border-radius: 20px;
+}
+
+.about2-content {
+    width        : 450px;
+    height       : 550px;
+    background   : #FDF4F7;
+    border-radius: 20px;
+}
+
+.about2-name {
+    width         : 368px;
+    height        : 140px;
+    font-weight   : 700;
+    font-size     : 54px;
+    line-height   : 70px;
+    text-align    : center;
+    letter-spacing: -4.4px;
+    text-transform: capitalize;
+    margin        : 88px auto 0;
+}
+
+.about2-descp {
+    width      : 323px;
+    height     : 104px;
+    font-weight: 400;
+    font-size  : 15px;
+    line-height: 26px;
+    text-align : center;
+    margin     : 40px auto 0;
+}
+
+.about2-content>button {
+    width         : 183px;
+    height        : 50px;
+    border-radius : 10px;
+    border        : none;
+    text-transform: uppercase;
+    font-weight   : 700;
+    font-size     : 17px;
+    line-height   : 22px;
+    color         : #FFFFFF;
+    padding       : 14px 30px;
+    background    : #EC80A0;
+    margin        : 40px 133.5px 0;
+}
+
+.about2-content>button:hover {
+    background: #E76088;
+}
