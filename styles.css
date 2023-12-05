@@ -110,14 +110,18 @@ ul li {
 .logo {
     width         : 116px;
     height        : 70px;
+    text-transform: uppercase;
     font-size     : 54px;
     font-weight   : 800;
     line-height   : 70px;
     text-align    : center;
     color         : #1A1114;
     letter-spacing: -3.8px;
-    position      : absolute;
-    left          : 902px;
+}
+
+nav .logo {
+    position: absolute;
+    left    : 902px;
 }
 
 .icons {
@@ -628,4 +632,180 @@ ul li {
 
 .b3 .descp-benifit {
     width: 173px;
+}
+
+/* Footer */
+footer {
+    margin  : 100px 255px 27px;
+    position: relative;
+    height  : 564px;
+}
+
+footer .logo {
+    position: absolute;
+    top     : 0;
+    left    : 0;
+}
+
+.subscribe {
+    position: absolute;
+    right   : 0;
+    top     : 10px;
+    display : flex;
+    width   : 733px;
+    height  : 50px;
+    gap     : 31px;
+}
+
+.subscribe p {
+    width         : 206px;
+    height        : 44px;
+    font-weight   : 700;
+    font-size     : 15px;
+    line-height   : 22px;
+    letter-spacing: -0.2px;
+}
+
+.subscribe form {
+    width        : 496px;
+    height       : 50px;
+    border       : 1px solid #EC80A0;
+    display      : flex;
+    gap          : 5px;
+    font-size    : 15px;
+    font-weight  : 400;
+    border-radius: 10px;
+}
+
+form i {
+    width     : 26px;
+    height    : 26px;
+    text-align: right;
+    position  : relative;
+    top       : 13px;
+}
+
+.subscribe form input[type=email] {
+    border: none;
+    width : 304px;
+}
+
+.subscribe form input[type=email]:focus {
+    border: none;
+}
+
+form button {
+    width        : 166px;
+    border       : 1px solid #EC80A0;
+    background   : #EC80A0;
+    border-radius: 0 7px 7px 0px;
+    color        : #FFFFFF;
+}
+
+form button:hover {
+    border    : 1px solid #E76088;
+    background: #E76088;
+}
+
+.info {
+    width      : 1410px;
+    display    : flex;
+    position   : absolute;
+    top        : 140px;
+    border-top : 1px solid #1a11141a;
+    padding-top: 71px;
+}
+
+.info h6 {
+    height        : 31px;
+    font-weight   : 700;
+    font-size     : 24px;
+    line-height   : 31px;
+    color         : #1A1114;
+    letter-spacing: -1.1px;
+}
+
+.contact-info {
+    width: 213px;
+}
+
+
+.contact-info span {
+    height     : 26px;
+    line-height: 26px;
+}
+
+.contact-info p {
+    height     : 26px;
+    font-weight: 400;
+    font-size  : 15px;
+    line-height: 26px;
+}
+
+.address {
+    margin-top: 30px;
+}
+
+.email,
+.phone {
+    margin-top: 20px;
+}
+
+.address p {
+    height        : 52px;
+    width         : 168px;
+    letter-spacing: -0.4px;
+}
+
+.address,
+.email,
+.phone {
+    display: flex;
+    gap    : 25px;
+}
+
+pre {
+    height     : 168px;
+    margin-top : 30px;
+    font-weight: 400;
+    font-size  : 15px;
+    line-height: 42px;
+}
+
+.quick-link {
+    width      : 124px;
+    margin-left: 147px;
+}
+
+.information {
+    width      : 129px;
+    margin-left: 236px;
+}
+
+.follow-us {
+    width      : 107px;
+    margin-left: 234px;
+}
+
+.follow-us div {
+    display: flex;
+    gap    : 20px;
+}
+
+.bottom {
+    width     : 1410px;
+    position  : absolute;
+    bottom    : 0;
+    height    : 54px;
+    border-top: 1px solid #1a11141a;
+}
+
+.bottom p {
+    width         : 306px;
+    height        : 26px;
+    font-weight   : 400;
+    font-size     : 15px;
+    line-height   : 26px;
+    margin        : 28px 0 0 543px;
+    letter-spacing: -0.5px;
 }
